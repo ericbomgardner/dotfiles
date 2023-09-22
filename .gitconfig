@@ -2,4 +2,3 @@ core.editor=subl -n -w
 alias.up=pull
 fetch.prune=true
 pull.rebase=false
-branch.autosetupmerge=always
