@@ -1,0 +1,18 @@
+{
+    "workbench.iconTheme": "macos-modern-big-sur-icon-theme",
+    "workbench.productIconTheme": "macos-modern",
+    "debug.openDebug": "openOnDebugBreak",
+    "files.autoSave": "afterDelay",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "debug.toolBarLocation": "commandCenter",
+    "editor.minimap.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.preferredDarkColorTheme": "MacOS Modern Dark - Ventura Xcode Default",
+    "workbench.colorTheme": "MacOS Modern Light - Ventura Xcode Default",
+    "workbench.preferredLightColorTheme": "MacOS Modern Light - Ventura Xcode Default",
+    "window.autoDetectColorScheme": true,
+    "editor.codeActionWidget.includeNearbyQuickFixes": true
+}
