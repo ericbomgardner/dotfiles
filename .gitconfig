@@ -1,5 +1,11 @@
-core.editor=subl -n -w
-alias.up=pull
-fetch.prune=true
-pull.rebase=false
-push.default=current
+[user]
+	name = Eric Bomgardner
+	email = eric.bomgardner@gmail.com
+[core]
+	editor = subl -n -w
+[alias]
+	up = pull
+[fetch]
+	prune = true
+[pull]
+	rebase = false
