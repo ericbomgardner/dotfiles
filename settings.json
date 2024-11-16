@@ -14,5 +14,8 @@
     "workbench.colorTheme": "MacOS Modern Light - Ventura Xcode Default",
     "workbench.preferredLightColorTheme": "MacOS Modern Light - Ventura Xcode Default",
     "window.autoDetectColorScheme": true,
-    "editor.codeActionWidget.includeNearbyQuickFixes": true
+    "editor.codeActionWidget.includeNearbyQuickFixes": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.accessibilitySupport": "off"
 }
