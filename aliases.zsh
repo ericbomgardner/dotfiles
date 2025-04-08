@@ -20,6 +20,7 @@ alias gsc="git --no-pager log origin/main..HEAD --reverse --pretty=tformat:'- %s
 alias gb="git --no-pager branch"
 alias gsup=ggsup  # AKA git branch --set-upstream-to=origin/$(git_current_branch)
 alias gup="git up"
+alias gclean='git checkout -q main && git for-each-ref refs/heads/ "--format=%(refname:short)" | while read branch; do mergeBase=$(git merge-base main $branch) && [[ $(git cherry main $(git commit-tree $(git rev-parse $branch\^{tree}) -p $mergeBase -m _)) == "-"* ]] && git branch -D $branch; done'
 
 # terminal
 alias clr="clear && gsa"
